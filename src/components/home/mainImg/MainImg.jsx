@@ -6,7 +6,7 @@ const MainImg = () => {
     return (
         <> 
         <div  className={classes.intro}> 
-        <div className="wrapper">
+        <div className={classes.wrapper}>
             <h1 className={classes.intro__title}>ЧИСТОТА И ПОРЯДОК В ВАШЕМ ДОМЕ</h1>
             <p className={classes.intro__subtitle}>
             Уборка квартир, домов и офисов в Бишкеке<br/>
