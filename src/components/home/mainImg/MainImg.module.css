@@ -1,0 +1,103 @@
+.intro {
+    width: 100%;
+    background: url('https://deepcleaning.ie/wp-content/uploads/2021/06/After-Builders-Cleaning-3-1.jpeg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 200px; 
+    z-index: 0;
+    margin-bottom: 100px;
+    
+    }
+    .intro:after {
+        position: absolute;
+        content: "";
+        top: 150px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        width: 100%;
+        height: 1101px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    /* .intro_wrapper {
+        background-color: #F6F8EB;;
+        max-width: 700px;
+        max-height: 500px;
+        padding: 50px;
+    
+    } */
+    
+    .intro__title {
+        position: relative;
+        z-index: 1;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 60px;
+        color: white;
+        max-width: 850px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    .intro__subtitle {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        color: white;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 59px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 35px;
+      
+    }
+    
+     .intro_num {
+         position: relative;
+         z-index: 1;
+         color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        font-size: 22px;
+        background-color: #1173a3;;
+        border-radius: 20px;
+        margin-left: 50px;
+               
+     }
+    
+     .intro_num2 {
+        position: relative;
+        z-index: 1;
+        color: white;
+       text-decoration: none;
+       padding: 0.5rem 1rem;
+       font-size: 22px;
+       background-color: #28a049;
+       border-radius: 20px;
+       margin-left: 50px;
+              
+    }
+     .hey {
+         margin-top: 50px;
+     }
+    
+     .phoneIcon {
+         color: white;
+         width: 25px;
+         height: 25px;
+    
+         background-color: none;
+    
+     }
+
+     .whatsapp_icon {
+        width: 25px;
+        height: 25px;
+     }
