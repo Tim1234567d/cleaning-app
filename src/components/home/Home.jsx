@@ -4,6 +4,7 @@ import Services from "./services/Services";
 import Example from "./example/example";
 import ChooseUs from "./chooseUs/ChooseUs";
 import Price from "./price/Price";
+import GetInTouch from "./getInTouch/GetInTouch";
 
 
 const Home = () => {
@@ -13,6 +14,8 @@ const Home = () => {
             <Services/>
             <ChooseUs/>
             <Price/>
+            <GetInTouch/>
+
 
         </div>
     )
