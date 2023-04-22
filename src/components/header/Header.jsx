@@ -50,7 +50,7 @@ const Header = () => {
 
           <li className={classes.nav_item}>
             <Link
-              to='/aboutUs'
+              to='/aboutCompany'
               className={classes.nav_links}
               onClick={closeMobileMenu}>
               О нас
