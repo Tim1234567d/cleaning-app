@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    /* margin-bottom: 35px; */
   }
   
   .navbar-logo {
@@ -81,12 +80,26 @@
   .menu-icon {
     display: none;
   }
+  .nav-btn {
+    justify-self: start;
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+  }
+
+ 
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
     }
-  
+
     .nav-menu {
       display: flex;
       flex-direction: column;
@@ -97,6 +110,21 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      justify-content: flex-start;
+    }
+
+    
+  
+    .nav-btn.active  {
+      visibility: visible;
+      opacity: 1;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 70px;
+      margin-right: 30px;
+     
+      
     }
   
     .nav-menu.active {
