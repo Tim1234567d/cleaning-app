@@ -1,37 +1,29 @@
-.intro {
+.mainImg {
     width: 100%;
     background: url('https://deepcleaning.ie/wp-content/uploads/2021/06/After-Builders-Cleaning-3-1.jpeg') no-repeat center;
     background-size: cover;
-    min-height: 100vh;
-    padding-top: 200px; 
-    z-index: 0;
+    min-height: 70vh;
     margin-bottom: 100px;
     
     }
-    .intro:after {
-        position: absolute;
+    
+    .mainImg_shadow {
         content: "";
-        top: 150px;
+        top: 50px;
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 0;
+        z-index: 1;
         width: 100%;
-        height: 872px;
+        height: 800px;
         background-color: rgba(0, 0, 0, 0.3);
     }
+
+    .wrapper {
+        padding-top: 150px;
+    }
     
-    /* .intro_wrapper {
-        background-color: #F6F8EB;;
-        max-width: 700px;
-        max-height: 500px;
-        padding: 50px;
-    
-    } */
-    
-    .intro__title {
-        position: relative;
-        z-index: 1;
+    .title {
         font-weight: 500;
         font-size: 55px;
         line-height: 60px;
@@ -45,9 +37,7 @@
     
     
     
-    .intro__subtitle {
-        position: relative;
-        z-index: 1;
+    .subtitle {
         max-width: 600px;
         color: white;
         font-size: 30px;
@@ -58,10 +48,13 @@
         font-size: 35px;
       
     }
+
+    .num_wrapper {
+        margin-top: 50px;
+        text-align: center;
+    }
     
-     .intro_num {
-         position: relative;
-         z-index: 1;
+     .number_1 {
          color: white;
         text-decoration: none;
         padding: 0.5rem 1rem;
@@ -72,9 +65,7 @@
                
      }
     
-     .intro_num2 {
-        position: relative;
-        z-index: 1;
+     .number_2 {
         color: white;
        text-decoration: none;
        padding: 0.5rem 1rem;
@@ -84,15 +75,11 @@
        margin-left: 50px;
               
     }
-     .hey {
-         margin-top: 50px;
-     }
-    
-     .phoneIcon {
+
+     .phone_icon {
          color: white;
          width: 25px;
          height: 25px;
-    
          background-color: none;
     
      }

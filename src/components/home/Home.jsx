@@ -15,8 +15,6 @@ const Home = () => {
             <ChooseUs/>
             <Price/>
             <GetInTouch/>
-
-
         </div>
     )
 }
