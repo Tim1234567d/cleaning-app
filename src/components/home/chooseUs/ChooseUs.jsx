@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ChooseUsItem from "./ChooseUsItem";
-import {chooseUsData} from "./data"
+import {chooseUsData} from "./data.js"
 import classes from "./ChooseUs.module.css"
 
 const ChooseUs = () => { 

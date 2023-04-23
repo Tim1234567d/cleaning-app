@@ -1,13 +1,13 @@
 import React from "react";
-import s from './companyInfo.module.css'
+import classes from './companyInfo.module.css'
 import CompanyHistory from "./CompanyHistory";
 import CompanyMission from "./CompanyMission";
 
 const CompanyInfo = () => { 
     return(
 
-        <section className="wrapper">
-            <div class={s.tottori__all}> 
+        <section className={classes.wrapper}>
+            <div class={classes.tottori__all}> 
                 <CompanyHistory/>
                 <CompanyMission/>     
             </div>

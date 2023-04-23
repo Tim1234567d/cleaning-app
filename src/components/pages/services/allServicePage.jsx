@@ -10,7 +10,7 @@ const AllServices = () => {
         <div className={classes.wrapper}>
 
           <div>
-             <img className={classes.mainImg} src="https://www.pccsindia.com/wp-content/uploads/2022/02/8GKjllLOqVMMmsFYVvTuKuOxKCHCIO9Y1608670141.jpg" alt="11"/>
+             <img className={classes.mainImg} src="https://www.pccsindia.com/wp-content/uploads/2022/02/8GKjllLOqVMMmsFYVvTuKuOxKCHCIO9Y1608670141.jpg" alt="main img"/>
           </div>
 
           <Services />

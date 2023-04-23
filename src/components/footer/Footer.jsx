@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SocialList from "./SocialList";
 import classes from "./Footer.module.css"
 import {footer_icon} from "./data"

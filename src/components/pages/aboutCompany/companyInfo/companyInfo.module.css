@@ -1,10 +1,16 @@
+.wrapper {
+    max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+
 .tottori__all {
     max-width: 950px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
 }
- 
+
 .mainBlock {
     padding: 20px;
 }

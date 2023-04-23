@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import CompanyInfo from "./companyInfo/CompanyInfo";
 import EmployeeInfo from "./employeeInfo/EmployeeInfo";
-import s from './companyInfo/companyInfo.module.css'
-
-// import TeamInfo from "./teamInfo/teamInfo";
-
+import classes from './companyInfo/companyInfo.module.css'
 
 const AboutUs = () => {
 
     return( 
     
-      <div className="wrapper">
+      <div className={classes.wrapper}>
 
-      <div className={s.mainBlock} ><img className={s.mainImg} src="https://deepcleaning.ie/wp-content/uploads/2021/06/After-Builders-Cleaning-3-1.jpeg" alt=""/>
+      <div className={classes.mainBlock} ><img className={classes.mainImg} src="https://deepcleaning.ie/wp-content/uploads/2021/06/After-Builders-Cleaning-3-1.jpeg" alt="main img"/>
       </div>
           <CompanyInfo/>
           <EmployeeInfo/>
