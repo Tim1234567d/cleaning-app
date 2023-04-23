@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
 import CleaningInfo from "./cleaningInfo";
 import Services from "./services";
-import s from './services.module.css'
+import classes from './services.module.css'
 
  
 const AllServices = () => {
     return (
-        <section >
-        <div className="wrapper" >
+        <section className={classes.services_section}>
+        <div className={classes.wrapper}>
 
-          <div  ><img className={s.photoBig3} src="https://rescuemytimecleaningservice.com/wp-content/uploads/2019/11/cleaning-person-800x533.jpeg" alt="11"/></div>
+          <div>
+             <img className={classes.mainImg} src="https://www.pccsindia.com/wp-content/uploads/2022/02/8GKjllLOqVMMmsFYVvTuKuOxKCHCIO9Y1608670141.jpg" alt="11"/>
+          </div>
 
           <Services />
           <CleaningInfo />

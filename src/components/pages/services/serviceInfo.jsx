@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import s from './services.module.css'
+import classes from './services.module.css'
 
 const ServiceInfo = ({services}) => {      
 
@@ -8,13 +8,11 @@ const ServiceInfo = ({services}) => {
        
       <div  key={services.id}> 
       <Link to={`/serviceDetail/${services.id}`} >  
-      <div className={s.top__card}>
-       <img className={s.backImg} src={services.backImg} alt="" /> 
-       <div className={s.block}>
-          <h3 className="servicesTitle">{services.title}</h3>
-          {/* <p className="top__cardDesc">
-           {services.text}
-          </p> */}
+      <div className={classes.top__card}>
+       <img className={classes.backImg} src={services.backImg} alt="service img" /> 
+       <div className={classes.block}>
+          <h3 className={classes.service_title}>{services.title}</h3>
+        
         </div>
          
         </div>

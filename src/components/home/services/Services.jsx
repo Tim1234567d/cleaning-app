@@ -16,7 +16,7 @@ return (
           {Services_data.map( (services) => 
         <OneService services = {services} />
 
-          )}
+          )} 
         </div>
       </div>
       </section>

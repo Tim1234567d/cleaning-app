@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./cleaningInfo.module.css"
+import classes from "./cleaningInfo.module.css"
 import CleaningInfoItem from "./cleaningInfoItem";
 import CleaningIngoItem2 from "./cleaningInfoItem2";
 import CleaningInfoItem3 from "./cleaningInfoItem3";
@@ -8,11 +8,11 @@ const CleaningInfo = () => {
     return(
         <section class="wrapper">
 
-        <div className={s.wrapper_full}>
-        <h1 className={s.service_title}>Что входит в уборку помещения</h1>
-        <p className={s.service_title2}>Экипаж приедет в удобное для вас время,<br /> создаст чистоту и уют в Вашем доме</p>
+        <div className={classes.wrapper_full}>
+        <h1 className={classes.service_title}>Что входит в уборку помещения</h1>
+        <p className={classes.service_title2}>Экипаж приедет в удобное для вас время,<br /> создаст чистоту и уют в Вашем доме</p>
  
-            <div className={s.tottori__all}>
+            <div className={classes.tottori__all}>
 
                 <CleaningInfoItem />
                 <CleaningIngoItem2 />
