@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import ChooseUsItem from "./ChooseUsItem";
-import "./chooseUs.css"
-import { chooseUsData } from "./data";
+import {chooseUsData} from "./data"
+import classes from "./ChooseUs.module.css"
 
 const ChooseUs = () => { 
   return (
     
-     <section className="chooseUs">
-        <div className="wrapper">
-            <h2 className="chooseUs__title">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
-            <div className="chooseUs__cards">
+     <section className={classes.chooseUs}>
+        <div className={classes.wrapper}>
+            <h2 className={classes.chooseUs_title}>ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+            <div className={classes.chooseUs_cards}>
 
                 { 
                     chooseUsData.map((chooseUs) => (
