@@ -19,7 +19,6 @@ const CleaningInfoItem3 = () => {
 
           <div className={classes .subtitle-1}><p className={classes.subtitle-1-1}>-Помыть ванную или душевую кабину <br/>-Помыть раковину<br/>-Помыть унитаз<br/>-Помыть биде<br/>-Помыть лоток<br/>-Помыть настенную плитку<br/>-Помыть стиральную машину</p></div>
 
-          {/* <div><a href="#" className="card-link">VIEW PREFECTURE</a></div> */}
            </div>
       </div>
       
